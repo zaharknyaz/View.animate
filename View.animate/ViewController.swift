@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +48,19 @@ class ViewController: UIViewController {
             self.button2.center = button2center
         }
     }
+    
+    @IBAction func pushButtonAction3(_ sender: Any) {
+        let center = self.button3.center
+        UIView.animate(withDuration: 2, delay: 0, usingSpringWithDamping: 0.1, initialSpringVelocity: 10, options: .allowAnimatedContent, animations: {
+            var c = self.button3.center
+            c.y = c.y + 100
+            self.button3.center = c
+            
+        }) { (bool) in
+            self.button3.center = center
+        }
         
+    }
+    
 }
 
