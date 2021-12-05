@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A437BAB275D3C69009624A5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A437BAA275D3C69009624A5 /* icon.png */; };
+		3A437BAD275D3F7C009624A5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A437BAC275D3F7C009624A5 /* FirstViewController.swift */; };
 		3A4BB0B2275256F3006B6E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BB0B1275256F3006B6E9E /* AppDelegate.swift */; };
 		3A4BB0B4275256F3006B6E9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BB0B3275256F3006B6E9E /* SceneDelegate.swift */; };
 		3A4BB0B6275256F3006B6E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BB0B5275256F3006B6E9E /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A437BAA275D3C69009624A5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3A437BAC275D3F7C009624A5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3A4BB0AE275256F3006B6E9E /* View.animate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = View.animate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4BB0B1275256F3006B6E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A4BB0B3275256F3006B6E9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				3A4BB0B1275256F3006B6E9E /* AppDelegate.swift */,
+				3A437BAA275D3C69009624A5 /* icon.png */,
 				3A4BB0B3275256F3006B6E9E /* SceneDelegate.swift */,
 				3A4BB0B5275256F3006B6E9E /* ViewController.swift */,
 				3AFBF588275BF93600EF8E97 /* ViewController2.swift */,
@@ -66,6 +71,7 @@
 				3A4BB0BA275256F4006B6E9E /* Assets.xcassets */,
 				3A4BB0BC275256F4006B6E9E /* LaunchScreen.storyboard */,
 				3A4BB0BF275256F4006B6E9E /* Info.plist */,
+				3A437BAC275D3F7C009624A5 /* FirstViewController.swift */,
 			);
 			path = View.animate;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A437BAB275D3C69009624A5 /* icon.png in Resources */,
 				3A4BB0BE275256F4006B6E9E /* LaunchScreen.storyboard in Resources */,
 				3A4BB0BB275256F4006B6E9E /* Assets.xcassets in Resources */,
 				3A4BB0B9275256F3006B6E9E /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A437BAD275D3F7C009624A5 /* FirstViewController.swift in Sources */,
 				3A4BB0B6275256F3006B6E9E /* ViewController.swift in Sources */,
 				3AFBF589275BF93600EF8E97 /* ViewController2.swift in Sources */,
 				3A4BB0B2275256F3006B6E9E /* AppDelegate.swift in Sources */,
